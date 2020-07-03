@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="payment">
+	<test  name="payment tests">
+		<classes>
+			<class name="TestNG.paymentTest"/>
+			<class name="TestNG.paymentReturns"/>
+			
+		</classes>	
+	</test>
+</suite>

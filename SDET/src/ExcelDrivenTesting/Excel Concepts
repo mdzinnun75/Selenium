@@ -1,0 +1,13 @@
+FileOutputStream =>  for creating or writing data into a excel file.
+FileInputStream  =>  for reading data from a excel file.
+
+
+		XSSFWorkbook workbook 	= new XSSFWorkbook();
+		XSSFSheet sheet 		= workbook.createSheet("Sheet1"); 	/ workbook.getSheet("Sheet1");  
+		XSSFRow   row   		= sheet.createRow();  				/ sheet.getRow();
+		
+		row.createCell().setCellValue("apple");  					/ row.getCell(j).toString();
+		
+		
+
+        workbook--> sheet--> row--> cell
