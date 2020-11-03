@@ -1,6 +1,7 @@
-package Selenium.webdriver.basictest;
+package BasicTest;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;

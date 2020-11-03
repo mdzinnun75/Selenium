@@ -31,6 +31,16 @@ public class RobotDownloadFF {
 		
 		
 		rob.keyPress(KeyEvent.VK_ENTER);
+		
+		
+		/*
+		 * WITHOUT ROBOT CLASS
+		 * 1) type   --> about:config
+		 * 2) search --> browser.helperapps.neverask
+		 * 3) select --> browser.helperapps.neverask.saveToDisk
+		 * 4) enter string value --> true
+		 * 5) click --> OK!
+		 */
 	}
 
 }

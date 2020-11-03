@@ -21,6 +21,8 @@ public class MouseOver {
 		driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
 
+		
+		//hovering the mouse
 		Actions act = new Actions(driver);
 		WebElement admin = driver.findElement(By.xpath("//b[contains(text(),'Admin')]"));
 		WebElement usrmmg = driver.findElement(By.xpath("//a[@id='menu_admin_UserManagement']"));

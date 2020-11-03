@@ -13,8 +13,7 @@ public class SikuliUpFF {
 
 	public static void main(String[] args) throws InterruptedException, FindFailed {
 
-		System.setProperty("webdriver.gecko.driver",
-				"C:\\Users\\MD.ZINNUN UDDIN\\SDET\\SDET\\Drivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\MD.ZINNUN UDDIN\\SDET\\SDET\\Drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 
@@ -33,7 +32,7 @@ public class SikuliUpFF {
 		Pattern openButton = new Pattern(imagePath + "Annotation 2020-05-22 105740.jpg");
 
 		Thread.sleep(5000);
-
+		
 		s.wait(nameTextBox, 20);
 		s.type(nameTextBox, imagePath + "Upload.jpg");
 		s.click(openButton);

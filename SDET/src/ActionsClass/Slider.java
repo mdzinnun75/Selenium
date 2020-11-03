@@ -19,7 +19,7 @@ public class Slider {
 				.findElement(By.xpath("//span[@class='ui-slider-handle ui-corner-all ui-state-default']"));
 
 		Actions act = new Actions(driver);
-		act.moveToElement(slider).dragAndDropBy(slider, 300, 0).build().perform(); // Difficult for me
+		act.moveToElement(slider).dragAndDropBy(slider, 300, 0).build().perform(); // didn't catch it clearly
 	}
 
 }

@@ -1,6 +1,6 @@
 package DownloadAndUploadFile;
 
-import java.io.*;
+import java.io.File;
 import java.util.HashMap;
 
 import org.openqa.selenium.By;

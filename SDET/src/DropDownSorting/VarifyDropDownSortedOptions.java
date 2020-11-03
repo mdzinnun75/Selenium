@@ -1,10 +1,7 @@
 package DropDownSorting;
 
-import java.awt.List;
-import java.util.ArrayList;
-import java.util.Collections;
-
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -35,10 +32,10 @@ public class VarifyDropDownSortedOptions {
 		}
 		System.out.println(actList);
 
-		System.out.println("before soritng " + sortableList);
+		System.out.println("before sorting " + sortableList);
 
 		Collections.sort(sortableList);
-		System.out.println("after soritng " + sortableList);
+		System.out.println("after sorting " + sortableList);
 
 		if (actList.equals(sortableList)) {
 			System.out.println("Sorted!!");
