@@ -9,3 +9,5 @@ This repo covers basic implementation of-
 * Robot Class
 * Javascript Executor
 * AutoIT
+* Reporting (Extent Report)
+* Logging (log4j)
