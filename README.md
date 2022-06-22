@@ -1,6 +1,6 @@
 # Selenium
 
-This is repo for basic web automation tasks using Selenium, the programming language used is Java.
+This is repo for basic web automation tasks using **Selenium**, the programming language used is **Java**.
 
 This repo covers basic implementation of-
 * Selenium
